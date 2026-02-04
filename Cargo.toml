@@ -1,0 +1,11 @@
+# [package] セクションは、このプロジェクト自体のメタデータを定義します。
+# Rust では「クレート (crate)」という単位でパッケージを管理します。
+[package]
+name = "untitled"     # プロジェクト名
+version = "0.1.0"      # バージョン
+edition = "2024"      # Rust のエディション。Rust は 3 年ごとにエディションが更新され、大きな仕様変更はこの単位で行われます。
+
+# [dependencies] セクションには、このプロジェクトが依存する外部ライブラリを記述します。
+# Python でいう requirements.txt や、C++ でいう CMakeLists.txt に相当しますが、
+# Cargo が自動的にダウンロードとビルドを管理してくれます。
+[dependencies]
